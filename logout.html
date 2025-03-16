@@ -1,0 +1,8 @@
+Logout Page (Logout.html)
+<script>
+    // Clear user info from localStorage and redirect to the home page
+    window.onload = function() {
+        localStorage.removeItem('user');
+        window.location.href = 'Home.html';
+    };
+</script>
